@@ -44,9 +44,9 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         context = this;
 
-        tvNFCContent = (TextView) findViewById(R.id.nfc_contents);
-        message = (TextView) findViewById(R.id.edit_message);
-        btnWrite = (Button) findViewById(R.id.button);
+        tvNFCContent = findViewById(R.id.nfc_contents);
+        message = findViewById(R.id.edit_message);
+        btnWrite = findViewById(R.id.button);
 
         btnWrite.setOnClickListener(new View.OnClickListener()
         {
